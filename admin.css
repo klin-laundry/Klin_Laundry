@@ -1,0 +1,90 @@
+/* admin.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f8fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-header {
+  background-color: #1565c0;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.admin-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.admin-nav {
+  margin-top: 1rem;
+}
+
+.admin-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.admin-main {
+  padding: 2rem 3%;
+}
+
+.admin-instruksi h2 {
+  color: #1565c0;
+  margin-bottom: 0.5rem;
+}
+
+.pesanan-admin-list {
+  margin-top: 1rem;
+}
+
+.pesanan-card {
+  background-color: white;
+  border: 1px solid #dce3eb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(21, 101, 192, 0.1);
+}
+
+.pesanan-card h3 {
+  color: #1565c0;
+  margin-bottom: 0.5rem;
+}
+
+.pesanan-card p {
+  margin: 4px 0;
+}
+
+.pesanan-card select {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  margin-right: 10px;
+}
+
+.pesanan-card button {
+  background-color: #1565c0;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pesanan-card button:hover {
+  background-color: #0d47a1;
+}
+
+.admin-footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #e3f2fd;
+  text-align: center;
+  font-size: 0.9rem;
+}
